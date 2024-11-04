@@ -44,6 +44,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           <p>
             <input id='vertFOV' value='90' min='30' max='150' step='10' type='range'/><br/>
             <label id='vertFOVLabel' for="vertFOV">Vertical FOV: </label>
+            
           </p>
         </p>
       </details>
@@ -109,7 +110,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       scene.addNode(new SkyboxNode({url: 'media/textures/milky-way-4k.png'}));
 
       function initXR() {
-        
+
         xrButton = new WebXRButton({
           onRequestSession: onRequestSession,
           onEndSession: onEndSession
@@ -344,3 +345,5 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     </script>
   </body>
 </html>
+
+
